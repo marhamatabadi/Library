@@ -7,7 +7,7 @@
         public int BookId { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-
+        public bool? WasDelivered { get; set; }
         public virtual Member? Member { get; set; }
         public virtual Book? Book { get; set; }
     }
